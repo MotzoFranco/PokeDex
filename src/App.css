@@ -1,3 +1,15 @@
 h1 {
-    background-color: red;
+    text-align: center;
+    font-family: "Pokemon";
+    color: yellow;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 2px black;
+}
+
+@font-face {
+    font-family: "Pokemon";
+    src: local("pokemon"),
+    url('/src/assets/fonts/Pokemon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
